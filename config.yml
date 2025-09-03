@@ -1,0 +1,206 @@
+#########################################################################################################
+#    Developer; padrewin (blowtobacco loves padre) || Cold Development                                  #
+#    GitHub; https://github.com/padrewin || https://github.com/Cold-Development                         #
+#    Links: https://colddev.dev || https://discord.colddev.dev                                          #
+#    Textures: https://minecraft-heads.com/custom-heads                                                 #
+#########################################################################################################
+
+# Holograms for pouches
+holograms:
+  enabled: false
+
+# If you don't want to use custom textures such as "PLAYER_HEAD" just replace it with "CHEST" or "ENDER_CHEST" and leave "texture-url:" empty. You have an example below somewhere.
+# You can use placeholders in the pouch's lore. %pricerange_from% and %pricerange_to%
+# economytypes can be: VAULT (money), XP, PlayerPoints, LemonMobCoins, owncustomname (name of defined custom pouch)
+
+# Pouch now works with permissions. If you want permissions use permission-required: moneypouch.pouches.pouchName line below the economytype line. If you don't want permissions, delete the entire line.
+
+pouches:
+  tier:
+    vault-1:
+      name: "&8➥ &x&7&0&6&A&6&9&lM&x&7&0&6&A&6&9&lo&x&7&0&6&A&6&9&ln&x&7&0&6&A&6&9&le&x&7&0&6&A&6&9&ly &fPouch &x&2&9&2&8&2&8✦&x&7&0&6&A&6&9✦&x&7&0&6&A&6&9✦&x&7&0&6&A&6&9✦&x&7&0&6&A&6&9✦"
+      item: "PLAYER_HEAD"
+      texture-url: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWZkMTA4MzgzZGZhNWIwMmU4NjYzNTYwOTU0MTUyMGU0ZTE1ODk1MmQ2OGMxYzhmOGYyMDBlYzdlODg2NDJkIn19fQ=="
+      pricerange:
+        from: 5000 # Edit the price here!
+        to: 10000
+      options:
+        economytype: "VAULT"
+      lore:
+        - ""
+        - "&r&7What do you think is inside?"
+        - ""
+        - "       &8» &f&l%pricerange_from%&a&l$ &8- &f&l%pricerange_to%&a&l$ &8«"
+        - ""
+    vault-2:
+      name: "&8➥ &x&7&0&6&A&6&9&lM&x&7&0&6&A&6&9&lo&x&7&0&6&A&6&9&ln&x&7&0&6&A&6&9&le&x&7&0&6&A&6&9&ly &fPouch &x&2&9&2&8&2&8&l✦&x&2&9&2&8&2&8&l✦&x&2&9&2&8&2&8&l✦&x&7&0&6&A&6&9&l✦&x&7&0&6&A&6&9&l✦"
+      item: "PLAYER_HEAD"
+      texture-url: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWZkMTA4MzgzZGZhNWIwMmU4NjYzNTYwOTU0MTUyMGU0ZTE1ODk1MmQ2OGMxYzhmOGYyMDBlYzdlODg2NDJkIn19fQ=="
+      pricerange:
+        from: 10000 # Edit the price here!
+        to: 20000
+      options:
+        economytype: "VAULT"
+      lore:
+        - ""
+        - "&r&7What do you think is inside?"
+        - ""
+        - "       &8» &f&l%pricerange_from%&a&l$ &8- &f&l%pricerange_to%&a&l$ &8«"
+        - ""
+    vault-3:
+      name: "&8➥ &x&7&0&6&A&6&9&lM&x&7&0&6&A&6&9&lo&x&7&0&6&A&6&9&ln&x&7&0&6&A&6&9&le&x&7&0&6&A&6&9&ly &fPouch &x&2&9&2&8&2&8&l✦&x&2&9&2&8&2&8&l✦&x&2&9&2&8&2&8&l✦&x&2&9&2&8&2&8&l✦&x&2&9&2&8&2&8&l✦"
+      item: "PLAYER_HEAD"
+      texture-url: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWZkMTA4MzgzZGZhNWIwMmU4NjYzNTYwOTU0MTUyMGU0ZTE1ODk1MmQ2OGMxYzhmOGYyMDBlYzdlODg2NDJkIn19fQ=="
+      pricerange:
+        from: 20000 # Edit the price here!
+        to: 50000
+      options:
+        economytype: "VAULT"
+      lore:
+        - ""
+        - "&r&7What do you think is inside?"
+        - ""
+        - "       &8» &f&l%pricerange_from%&a&l$ &8- &f&l%pricerange_to%&a&l$ &8«"
+        - ""     
+
+    xp-1:
+      name: "&8➥ &x&7&0&6&A&6&9&lL&x&7&0&6&A&6&9&le&x&7&0&6&A&6&9&lv&x&7&0&6&A&6&9&le&x&7&0&6&A&6&9&ll &fPouch &x&2&9&2&8&2&8✦&x&7&0&6&A&6&9✦&x&7&0&6&A&6&9✦&x&7&0&6&A&6&9✦&x&7&0&6&A&6&9✦"
+      item: "PLAYER_HEAD"
+      texture-url: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjZmZjBhYTQ4NTQ0N2JiOGRjZjQ1OTkyM2I0OWY5MWM0M2IwNDBiZDU2ZTYzMTVkYWE4YjZmODNiNGMzZWI1MSJ9fX0="
+      pricerange:
+        from: 160
+        to: 315
+      options:
+        economytype: "XP"
+      lore:
+        - ""
+        - "&r&7What do you think is inside?"
+        - ""
+        - "       &8» &f&l10 &a&lLVL &8- &f&l15 &a&lLVL &8«"
+        - ""
+    xp-2:
+      name: "&8➥ &x&7&0&6&A&6&9&lL&x&7&0&6&A&6&9&le&x&7&0&6&A&6&9&lv&x&7&0&6&A&6&9&le&x&7&0&6&A&6&9&ll &fPouch &x&2&9&2&8&2&8&l✦&x&2&9&2&8&2&8&l✦&x&2&9&2&8&2&8&l✦&x&7&0&6&A&6&9&l✦&x&7&0&6&A&6&9&l✦"
+      item: "PLAYER_HEAD"
+      texture-url: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjZmZjBhYTQ4NTQ0N2JiOGRjZjQ1OTkyM2I0OWY5MWM0M2IwNDBiZDU2ZTYzMTVkYWE4YjZmODNiNGMzZWI1MSJ9fX0="
+      pricerange:
+        from: 315
+        to: 550
+      options:
+        economytype: "XP"
+      lore:
+        - ""
+        - "&r&7What do you think is inside?"
+        - ""
+        - "       &8» &f&l15 &a&lLVL &8- &f&l20 &a&lLVL &8«"
+        - ""
+    xp-3:
+      name: "&8➥ &x&7&0&6&A&6&9&lL&x&7&0&6&A&6&9&le&x&7&0&6&A&6&9&lv&x&7&0&6&A&6&9&le&x&7&0&6&A&6&9&ll &fPouch &x&2&9&2&8&2&8&l✦&x&2&9&2&8&2&8&l✦&x&2&9&2&8&2&8&l✦&x&2&9&2&8&2&8&l✦&x&2&9&2&8&2&8&l✦"
+      item: "PLAYER_HEAD"
+      texture-url: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjZmZjBhYTQ4NTQ0N2JiOGRjZjQ1OTkyM2I0OWY5MWM0M2IwNDBiZDU2ZTYzMTVkYWE4YjZmODNiNGMzZWI1MSJ9fX0="
+      pricerange:
+        from: 550
+        to: 5345
+      options:
+        economytype: "XP"
+      lore:
+        - ""
+        - "&r&7What do you think is inside?"
+        - ""
+        - "       &8» &f&l20 &a&lLVL &8- &f&l50 &a&lLVL &8«"
+        - ""
+
+  # Sound settings (!!!!!!! MUST change for pre-1.9 !!!!!!!)
+  sound:
+    enabled: true
+    opensound: "BLOCK_CHEST_OPEN"       # (CHEST_OPEN  pre-1.9)
+    revealsound: "BLOCK_ANVIL_LAND"     # (ANVIL_LAND  pre-1.9)
+    endsound: "ENTITY_GENERIC_EXPLODE"  # (EXPLODE  pre-1.9)
+
+  # Title settings (will not work before 1.8, timings will not work before 1.10)
+  title:
+    speed-in-tick: 10
+    subtitle: "&7&oOpening..."
+    obfuscate-colour: "&7"
+    reveal-colour: "&f&l"
+    prefix-colour: "&a&l"
+    suffix-colour: "&a"
+    obfuscate-digit-char: "#"
+    obfuscate-format-char: "|"
+    format:               # (adds commas e.g   $1,924,281)
+      enabled: false
+      reveal-comma: true  # the commas will already be revealed when opening
+
+# Rather than showing each digit left-to-right, reveal it right-to-left
+reverse-pouch-reveal: false
+
+error-handling:
+  # It is recommended you set the following to 'true' in a production environment
+  # The plugin will log should a transaction fail for any reason, allowing you to investigate
+  # and manually reward the player yourself
+  # The player will be alerted and asked to tell an admin should this event occur regardless if this is disabled
+  # You can change this message ('reward-error') at the bottom of the config
+  log-failed-transactions: true
+  # Refund the pouch to the player (if they are online) in the event a transaction failed - this is default
+  # to 'false' as this results in a different prize on the second try, and it is unlikely
+  # that the transaction will succeed if it had already failed. It is recommended
+  # to keep this 'false' and manually investigate when errors occur.
+  refund-pouch: false
+  # Prevent opening pouches which have an invalid economy type assigned to them.
+  # The message 'invalid-pouch' will be sent to the player.
+  prevent-opening-invalid-pouches: true
+
+# /mpshop
+shop:
+  enabled: false
+  ui-title: "Pouch Shop"
+  purchasable-items:
+    xp-1:
+      price: 4000
+      currency: "VAULT"
+    vault-1:
+      price: 5500
+      currency: "VAULT"
+  append-to-lore:
+    - "&8==========================="
+    - "&aPrice: &e%prefix%%price%%suffix%"
+    - "&aClick to purchase"
+
+# Economy prefixes and suffixes
+economy:
+  xp:
+    prefix: ""
+    suffix: " XP"
+  vault:
+    prefix: "$"
+    suffix: ""
+  lemonmobcoins:
+    prefix: ""
+    suffix: " Mob Coins"
+  playerpoints:
+    prefix: ""
+    suffix: " Points"
+  coldbits:
+    prefix: ''
+    suffix: ' bits'
+
+# Messages here
+messages:
+  full-inv: "&8「&x&F&F&6&7&0&0Mo&x&F&E&7&6&0&0ne&x&F&C&8&B&0&0yP&x&F&B&6&D&0&0ou&x&F&A&B&0&0&0ch&x&F&6&C&2&0&0De&x&F&7&D&4&0&0lu&x&F&6&E&6&0&0xe&8」&7» &6%player%'s &finventory is &cfull&f. The pouch was dropped near the player."
+  player-full-inv: "&8「&x&F&F&6&7&0&0Mo&x&F&E&7&6&0&0ne&x&F&C&8&B&0&0yP&x&F&B&6&D&0&0ou&x&F&A&B&0&0&0ch&x&F&6&C&2&0&0De&x&F&7&D&4&0&0lu&x&F&6&E&6&0&0xe&8」&7» &fYour inventory is &cfull&f. A pouch was dropped near you. Make sure to pick it up."
+  give-item: "&8「&x&F&F&6&7&0&0Mo&x&F&E&7&6&0&0ne&x&F&C&8&B&0&0yP&x&F&B&6&D&0&0ou&x&F&A&B&0&0&0ch&x&F&6&C&2&0&0De&x&F&7&D&4&0&0lu&x&F&6&E&6&0&0xe&8」&7» &fYou have given &6%player%&f %item%&f."
+  receive-item: "&8「&x&F&F&6&7&0&0Mo&x&F&E&7&6&0&0ne&x&F&C&8&B&0&0yP&x&F&B&6&D&0&0ou&x&F&A&B&0&0&0ch&x&F&6&C&2&0&0De&x&F&7&D&4&0&0lu&x&F&6&E&6&0&0xe&8」&7» &fYou have received &6%item%&f."
+  prize-message: "&8「&x&F&F&6&7&0&0Mo&x&F&E&7&6&0&0ne&x&F&C&8&B&0&0yP&x&F&B&6&D&0&0ou&x&F&A&B&0&0&0ch&x&F&6&C&2&0&0De&x&F&7&D&4&0&0lu&x&F&6&E&6&0&0xe&8」&7» &fYou have received &6%prefix%%prize%%suffix%&f!"
+  already-opening: "&8「&x&F&F&6&7&0&0Mo&x&F&E&7&6&0&0ne&x&F&C&8&B&0&0yP&x&F&B&6&D&0&0ou&x&F&A&B&0&0&0ch&x&F&6&C&2&0&0De&x&F&7&D&4&0&0lu&x&F&6&E&6&0&0xe&8」&7» &fPlease wait until you open the first chest!"
+  invalid-pouch: "&8「&x&F&F&6&7&0&0Mo&x&F&E&7&6&0&0ne&x&F&C&8&B&0&0yP&x&F&B&6&D&0&0ou&x&F&A&B&0&0&0ch&x&F&6&C&2&0&0De&x&F&7&D&4&0&0lu&x&F&6&E&6&0&0xe&8」&7» &fThis chest no longer exists! &7(contact an administrator)"
+  inventory-full: "&8「&x&F&F&6&7&0&0Mo&x&F&E&7&6&0&0ne&x&F&C&8&B&0&0yP&x&F&B&6&D&0&0ou&x&F&A&B&0&0&0ch&x&F&6&C&2&0&0De&x&F&7&D&4&0&0lu&x&F&6&E&6&0&0xe&8」&7» &fYour inventory is full!"
+  reward-error: "&8「&x&F&F&6&7&0&0Mo&x&F&E&7&6&0&0ne&x&F&C&8&B&0&0yP&x&F&B&6&D&0&0ou&x&F&A&B&0&0&0ch&x&F&6&C&2&0&0De&x&F&7&D&4&0&0lu&x&F&6&E&6&0&0xe&8」&7» &fThe reward %prefix%%prize%%suffix% &fhas failed."
+  purchase-success: "&8「&x&F&F&6&7&0&0Mo&x&F&E&7&6&0&0ne&x&F&C&8&B&0&0yP&x&F&B&6&D&0&0ou&x&F&A&B&0&0&0ch&x&F&6&C&2&0&0De&x&F&7&D&4&0&0lu&x&F&6&E&6&0&0xe&8」&7» &fYou have purchased %item%&f for &6%prefix%%price%%suffix%&f."
+  purchase-fail: "&8「&x&F&F&6&7&0&0Mo&x&F&E&7&6&0&0ne&x&F&C&8&B&0&0yP&x&F&B&6&D&0&0ou&x&F&A&B&0&0&0ch&x&F&6&C&2&0&0De&x&F&7&D&4&0&0lu&x&F&6&E&6&0&0xe&8」&7» &6You do not have &6%prefix%%price%%suffix%&f."
+  purchase-error: "&8「&x&F&F&6&7&0&0Mo&x&F&E&7&6&0&0ne&x&F&C&8&B&0&0yP&x&F&B&6&D&0&0ou&x&F&A&B&0&0&0ch&x&F&6&C&2&0&0De&x&F&7&D&4&0&0lu&x&F&6&E&6&0&0xe&8」&7» &6Could not complete transaction for %item%&6."
+  shop-disabled: "&8「&x&F&F&6&7&0&0Mo&x&F&E&7&6&0&0ne&x&F&C&8&B&0&0yP&x&F&B&6&D&0&0ou&x&F&A&B&0&0&0ch&x&F&6&C&2&0&0De&x&F&7&D&4&0&0lu&x&F&6&E&6&0&0xe&8」&7» &fThe shop is disabled."
+  no-permission: "&8「&x&F&F&6&7&0&0Mo&x&F&E&7&6&0&0ne&x&F&C&8&B&0&0yP&x&F&B&6&D&0&0ou&x&F&A&B&0&0&0ch&x&F&6&C&2&0&0De&x&F&7&D&4&0&0lu&x&F&6&E&6&0&0xe&8」&7» &fYou do not have permission to open this chest!"
+  reloaded: "&8「&x&F&F&6&7&0&0Mo&x&F&E&7&6&0&0ne&x&F&C&8&B&0&0yP&x&F&B&6&D&0&0ou&x&F&A&B&0&0&0ch&x&F&6&C&2&0&0De&x&F&7&D&4&0&0lu&x&F&6&E&6&0&0xe&8」&7» MoneyPouchDeluxe has been reloaded."
+  update_notification: "&8「&x&F&F&6&7&0&0Mo&x&F&E&7&6&0&0ne&x&F&C&8&B&0&0yP&x&F&B&6&D&0&0ou&x&F&A&B&0&0&0ch&x&F&6&C&2&0&0De&x&F&7&D&4&0&0lu&x&F&6&E&6&0&0xe&8」&7» &cA new version &4%latest_version% &cwas found &4(your version: %current_version%)&c. &cPlease update: &n%update_link%"
+  kill-holo: "&8「&x&F&F&6&7&0&0Mo&x&F&E&7&6&0&0ne&x&F&C&8&B&0&0yP&x&F&B&6&D&0&0ou&x&F&A&B&0&0&0ch&x&F&6&C&2&0&0De&x&F&7&D&4&0&0lu&x&F&6&E&6&0&0xe&8」&7» Pouch hologram removed."
+  holograms_enabled: "&8「&x&F&F&6&7&0&0Mo&x&F&E&7&6&0&0ne&x&F&C&8&B&0&0yP&x&F&B&6&D&0&0ou&x&F&A&B&0&0&0ch&x&F&6&C&2&0&0De&x&F&7&D&4&0&0lu&x&F&6&E&6&0&0xe&8」&7» Holograms are now enabled."
+  holograms_disabled: "&8「&x&F&F&6&7&0&0Mo&x&F&E&7&6&0&0ne&x&F&C&8&B&0&0yP&x&F&B&6&D&0&0ou&x&F&A&B&0&0&0ch&x&F&6&C&2&0&0De&x&F&7&D&4&0&0lu&x&F&6&E&6&0&0xe&8」&7» Holograms are now disabled."
